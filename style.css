@@ -90,10 +90,20 @@ ul li a:hover {
 
 .align {
   margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  gap: 0.3rem;
+}
+
+#email {
+  align-items: center;
+  display: flex;
 }
 
 .about_me_text {
   max-width: var(--max-width);
+  margin-bottom: 10rem;
 }
 
 .mainly {
@@ -101,7 +111,6 @@ ul li a:hover {
   max-width: var(--max-width);
   margin-left: 4rem;
   margin-top: 2rem;
-
 }
 
 .technologies{
@@ -229,6 +238,7 @@ ul li a:hover {
 .image {
   display: grid;
   place-items: center;
+  padding: 2rem;
 }
 
 .image img {
@@ -275,3 +285,21 @@ ul li a:hover {
     margin: auto;
   }
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--extra-light);
+  padding: 1.2rem;
+}
+
+#icon {
+  font-size: 2rem;
+}
+
+#icon:hover {
+  color: var(--primary-color);
+}
+
+
